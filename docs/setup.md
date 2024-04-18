@@ -50,15 +50,13 @@ For RN 0.60 or higher, no manual linking is needed. You can override following g
 
 ```gradle
 ext {
-  compileSdkVersion   = 28
-  buildToolsVersion   = "28.0.3"
-  minSdkVersion       = 16
-  targetSdkVersion    = 28
+  compileSdkVersion   = 34
+  buildToolsVersion   = "34.0.0"
+  minSdkVersion       = 21
+  targetSdkVersion    = 34
 
-  // Any of the following will work
-  googlePlayServicesVersion      = "17.0.0"
-  // playServicesVersion         = "17.0.0"
-  // playServicesLocationVersion = "17.0.0"
+  //Add the following line 
+  playServicesLocationVersion = "21.0.1"
 }
 ```
 
